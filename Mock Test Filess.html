@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juned Academy - Mock Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1a2a6c 0%, #2a5298 100%);
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 800px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        
+        header {
+            background: #1a2a6c;
+            padding: 30px 25px;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+        
+        .academy-name {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .mock-test {
+            font-size: 24px;
+            font-weight: 500;
+            color: #fdbb2d;
+            letter-spacing: 2px;
+        }
+        
+        .divider {
+            height: 3px;
+            width: 80px;
+            background: #fdbb2d;
+            margin: 15px auto;
+            border-radius: 3px;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            background: #f8f9fa;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .listening {
+            border-left: 5px solid #1a2a6c;
+        }
+        
+        .reading {
+            border-left: 5px solid #2a5298;
+        }
+        
+        .writing {
+            border-left: 5px solid #fdbb2d;
+        }
+        
+        h2 {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+        
+        h2 i {
+            margin-right: 10px;
+            font-size: 24px;
+        }
+        
+        .listening h2 i {
+            color: #1a2a6c;
+        }
+        
+        .reading h2 i {
+            color: #2a5298;
+        }
+        
+        .writing h2 i {
+            color: #fdbb2d;
+        }
+        
+        .link-box {
+            display: block;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #1a2a6c;
+            font-weight: 500;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            margin-top: 10px;
+            word-break: break-all;
+        }
+        
+        .link-box:hover {
+            background: #1a2a6c;
+            color: white;
+            transform: translateX(5px);
+        }
+        
+        .link-box i {
+            margin-right: 8px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: white;
+            margin-top: 30px;
+            font-size: 14px;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                border-radius: 10px;
+            }
+            
+            .academy-name {
+                font-size: 28px;
+            }
+            
+            .mock-test {
+                font-size: 20px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .section {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="academy-name">Juned Academy</div>
+            <div class="mock-test">MOCK TEST</div>
+            <div class="divider"></div>
+        </header>
+        
+        <div class="content">
+            <div class="section listening">
+                <h2><i class="fas fa-headphones-alt"></i> Listening</h2>
+                <p>Improve your listening comprehension with these exercises:</p>
+                <a href="https://kawsarahmedeeeee-png.github.io/Listening-/" class="link-box" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>https://kawsarahmedeeeee-png.github.io/Listening-/
+                </a>
+            </div>
+            
+            <div class="section reading">
+                <h2><i class="fas fa-book-open"></i> Reading</h2>
+                <p>Enhance your reading skills with these resources:</p>
+                <a href="https://kawsarahmedeeeee-png.github.io/Reading/" class="link-box" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>https://kawsarahmedeeeee-png.github.io/Reading/
+                </a>
+            </div>
+            
+            <div class="section writing">
+                <h2><i class="fas fa-pencil-alt"></i> Writing</h2>
+                <p>Develop your writing abilities with these tools:</p>
+                <a href="https://kawsarahmedeeeee-png.github.io/writing-" class="link-box" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>https://kawsarahmedeeeee-png.github.io/writing-
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2023 Juned Academy | Mock Test Resources</p>
+    </footer>
+</body>
+</html>
